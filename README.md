@@ -24,7 +24,7 @@ path-command: -p <path-to-fault-localization-projects, path-to-dynamic-call-grpa
 
 # HOW TO RUN 
 # STEP 1: FAULT LOCALIZATION SCRIPT - GENERATE SUSPICIOUS RANKING FILE  
- run the script using command: python main.py -i <metrics-command> -p <path-command>  
+ run the script using command: python main.py -i [metrics-command] -p [path-command]    
  Ex: python main.py -i r -p '/home/mra/Desktop/test/'  
  Fault Localization coverage information file i.e. spectra, matrix file location: '/home/mra/Desktop/test/'  
  
