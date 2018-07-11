@@ -4,6 +4,14 @@ Exploring the Relationship between Design Metrics and Software Diagnosability us
 This tool used Defects4J 5 projects Chart, Closure, Lang, Math and Time project to diagnose 345 bugs properties.  
 Defects4J: https://github.com/rjust/defects4j  
 
+# INITIAL SETUP
+Below files/folders needs to be in the path location:  
+
+1. All the Defects4j projects spectra and matrix folder.  
+2. 'staticmetrics' folder - generated static metrics data from codepro tools.  
+3. 'spectra_faulty_methods_diffu.csv' - contain faulty node list  
+4. 'dynamic_call_graph' folder - contains all the call graph of the 5 projects.
+
 # COMMAND INFO    
 metrics-command: -i <r, c, s, t, d>    
 r: fault localization suspiciousness ranking  
@@ -15,7 +23,7 @@ d: dynamic metris extraction
 path-command: -p <path-to-fault-localization-projects, path-to-dynamic-call-grpah>  
 
 # HOW TO RUN 
-# STEP 1: FAULT LOCALIZATION SCRIPT TO GENERATE SUSPICIOUS RANKING FILE
+# STEP 1: FAULT LOCALIZATION SCRIPT - GENERATE SUSPICIOUS RANKING FILE  
  run the script using command: python main.py -i <metrics-command> -p <path-command>  
  Ex: python main.py -i r -p '/home/mra/Desktop/test/'  
  Fault Localization coverage information file i.e. spectra, matrix file location: '/home/mra/Desktop/test/'  
@@ -23,23 +31,23 @@ path-command: -p <path-to-fault-localization-projects, path-to-dynamic-call-grpa
  N.B.: To run other scripts, at first suspicious ranking file must have to generate.  
        So, STEP 1 is mandatory.  
  
-# STEP 2: CLASS METRICS SCRIPT TO GENERATE CLASS LABEL FILE FROM SUSPICIOUSNESS RANKING FILES
+# STEP 2: CLASS TRICS SCRIPT - GENERATE CLASS LABEL
   run the script using command: python main.py -i <metrics-command> -p <path-command>  
   Ex: python main.py -i c -p '/home/mra/Desktop/test/'  
   IMPORTANT: spectra_faulty_methods_diffu.csv file must be in the <path-command/spectra_faulty_methods_diffu.csv>  
   before run the command.  
   
-# STEP 3: STATIC METRICS SCRIPT TO GENERATE STATIC METRICS FILE FROM 'staticmetrics' folder
+# STEP 3: STATIC METRICS SCRIPT - GENERATE STATIC METRICS FILE FROM 'staticmetrics' folder
   run the script using command: python main.py -i <metrics-command> -p <path-command>  
   Ex: python main.py -i s -p '/home/mra/Desktop/test/'  
   IMPORTANT: 'staticmetrics' folder contains all the codepro generated static metrics .csv file.  
             And it should be located to <path-command/staticmetrics> i.e. '/home/mra/Desktop/test/staticmetrics/'  
 
-# STEP 4: TEST SUITE METRICS SCRIPT TO GENERATE TEST SUITE METRICS FROM SPECTRA, MATRIX FILE
+# STEP 4: TEST SUITE SCRIPT - GENERATE TEST METRICS FROM SPECTRA, MATRIX FILE
   run the script using command: python main.py -i <metrics-command> -p <path-command>  
   Ex: python main.py -i t -p '/home/mra/Desktop/test/'  
   
-# STEP 5: DYNAMIC METRICS SCRIPT TO GENERATE DYNAMIC METRICS FROM DYNAMIC CALL GRAPH, SPECTRA, MATRIX FILES
+# STEP 5: DYNAMIC METRICS SCRIPT - GENERATE DYNAMIC METRICS FROM DYNAMIC CALL GRAPH, SPECTRA, MATRIX FILES
   run the script using command: python main.py -i <metrics-command> -p <path-command>  
   Ex: python main.py -i d -p '/home/mra/Desktop/test/'  
   IMPORTANT: 'dynamic_call_graph' folder contains all the dynamic call graph files. So, before run the command,   
