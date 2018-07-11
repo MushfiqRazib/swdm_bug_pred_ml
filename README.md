@@ -5,8 +5,8 @@ This tool used Defects4J 5 projects Chart, Closure, Lang, Math and Time project 
 Defects4J: https://github.com/rjust/defects4j 
 
 # COMMAND INFO
-metrics-command: -i <r, c, s, t, d>
-r: fault localization suspiciousness ranking
+metrics-command: -i <r, c, s, t, d>__
+r: fault localization suspiciousness ranking__
 c: class generation
 s: static metrics extraction
 t: test suite matrix metrics extraction
@@ -16,8 +16,8 @@ path-command: -p <path-to-fault-localization-projects, path-to-dynamic-call-grpa
 
 # HOW TO RUN 
 # STEP 1: FAULT LOCALIZATION SCRIPT TO GENERATE SUSPICIOUS RANKING FILE
- run the script using command: python main.py -i <metrics-command> -p <path-command>
- Ex: python main.py -i r -p '/home/mra/Desktop/test/'
+ run the script using command: python main.py -i <metrics-command> -p <path-command>__
+ Ex: python main.py -i r -p '/home/mra/Desktop/test/'__
  Fault Localization coverage information file i.e. spectra, matrix file location: '/home/mra/Desktop/test/'
  
  N.B.: To run other scripts, at first suspicious ranking file must have to generate. 
@@ -46,7 +46,8 @@ path-command: -p <path-to-fault-localization-projects, path-to-dynamic-call-grpa
   this folder should be under the <path-command>.
   For example '/home/mra/Desktop/test/dynamic_call_graph/'
 
-# INPUT: script requires <path-to-defects4j> as command line argument
-# OUTPUT: output of the script is ~/Desktop/Defects4JCoverage.csv that lists Project, DefectId, and StatementCoverage for all the defects of Defects4J
-# HOW TO RUN: run the script using command: python getcoverageinfo.py <path-to-defects4j>
-# REQUIREMENTS AND DEPENDENCIES: script requires Defects4J installed on system"
+# STEP 6:HOW TO RUN getcoverageinfo.py FILE
+INPUT: script requires <path-to-defects4j> as command line argument
+OUTPUT: output of the script is ~/Desktop/Defects4JCoverage.csv that lists Project, DefectId, and StatementCoverage for all the defects of Defects4J
+HOW TO RUN: run the script using command: python getcoverageinfo.py <path-to-defects4j>
+ REQUIREMENTS AND DEPENDENCIES: script requires Defects4J installed on system"
