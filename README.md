@@ -12,6 +12,14 @@ Below files/folders needs to be in the path location:
 3. 'spectra_faulty_methods_diffu.csv' - contain faulty node list  
 4. 'dynamic_call_graph' folder - contains all the call graph of the 5 projects.
 
+# FOLDER DESCRIPTION
+1. dataset_final - 3 csf files with 63/46/14 features and class data.  
+2. arff - 3 .arff files prepared from final_dataset files to load into weka tool for ML purpose.  
+3. Chart, Closure, Lang, Math and Time - 5 defects4j projects with matrix, spectra files  
+4. staticmetrics - codepro tools static metrics output of 5 projects.  
+5. 'dynamic_call_graph' folder - contains all the call graph of the 5 projects.
+6. 'spectra_faulty_methods_diffu.csv' - contain faulty node list  
+
 # COMMAND INFO    
 metrics-command: -i <r, c, s, t, d>    
 r: fault localization suspiciousness ranking  
