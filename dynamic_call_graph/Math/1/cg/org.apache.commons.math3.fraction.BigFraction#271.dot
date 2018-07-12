@@ -1,0 +1,20 @@
+digraph enhanced "org.apache.commons.math3.fraction.BigFractionTest#149"
+{
+	"org.apache.commons.math3.fraction.BigFractionTest#149" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.fraction.BigFractionTest#149" -> "org.apache.commons.math3.fraction.BigFraction#356";
+	"org.apache.commons.math3.fraction.BigFraction#356" -> "org.apache.commons.math3.fraction.BigFraction#271";
+	"org.apache.commons.math3.fraction.BigFraction#271" -> "org.apache.commons.math3.util.FastMath#3338";
+	"org.apache.commons.math3.fraction.BigFraction#271" -> "org.apache.commons.math3.util.FastMath#3024";
+	"org.apache.commons.math3.fraction.BigFractionTest#149" -> "org.apache.commons.math3.fraction.BigFractionTest#35";
+	"org.apache.commons.math3.fraction.BigFractionTest#35" -> "org.apache.commons.math3.fraction.BigFraction#801";
+	"org.apache.commons.math3.fraction.BigFractionTest#35" -> "org.apache.commons.math3.fraction.BigFraction#768";
+	"org.apache.commons.math3.fraction.BigFraction#271" -> "org.apache.commons.math3.fraction.FractionConversionException#53";
+	"org.apache.commons.math3.fraction.FractionConversionException#53" -> "org.apache.commons.math3.exception.ConvergenceException#48";
+	"org.apache.commons.math3.exception.ConvergenceException#48" -> "org.apache.commons.math3.exception.MathIllegalStateException#69";
+	"org.apache.commons.math3.exception.MathIllegalStateException#69" -> "org.apache.commons.math3.exception.MathIllegalStateException#45";
+	"org.apache.commons.math3.exception.MathIllegalStateException#45" -> "org.apache.commons.math3.exception.util.ExceptionContext#64";
+	"org.apache.commons.math3.exception.MathIllegalStateException#45" -> "org.apache.commons.math3.exception.util.ExceptionContext#87";
+	"org.apache.commons.math3.exception.util.ExceptionContext#87" -> "org.apache.commons.math3.exception.util.ArgUtils#42";
+	"org.apache.commons.math3.exception.ConvergenceException#48" -> "org.apache.commons.math3.exception.MathIllegalStateException#74";
+	"org.apache.commons.math3.exception.ConvergenceException#48" -> "org.apache.commons.math3.exception.util.ExceptionContext#87";
+}

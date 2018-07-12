@@ -1,0 +1,45 @@
+digraph "cg/org.apache.commons.math3.geometry.euclidean.twod.SubLineTest#149"
+{
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLineTest#149" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLineTest#149" -> "org.apache.commons.math3.geometry.euclidean.twod.Vector2D#68";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLineTest#149" -> "org.apache.commons.math3.geometry.euclidean.twod.SubLine#56";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#56" -> "org.apache.commons.math3.geometry.euclidean.twod.Line#81";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#81" -> "org.apache.commons.math3.geometry.euclidean.twod.Line#129";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#129" -> "org.apache.commons.math3.geometry.euclidean.twod.Vector2D#150";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#129" -> "org.apache.commons.math3.geometry.euclidean.twod.Vector2D#158";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#129" -> "org.apache.commons.math3.util.FastMath#3574";
+	"org.apache.commons.math3.util.FastMath#3574" -> "org.apache.commons.math3.util.FastMath#3685";
+	"org.apache.commons.math3.util.FastMath#3574" -> "org.apache.commons.math3.util.FastMath#3025";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#129" -> "org.apache.commons.math3.util.FastMath#2582";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#129" -> "org.apache.commons.math3.util.FastMath#2295";
+	"org.apache.commons.math3.util.FastMath#2295" -> "org.apache.commons.math3.util.FastMath#1843";
+	"org.apache.commons.math3.util.FastMath#1843" -> "org.apache.commons.math3.util.FastMath#1719";
+	"org.apache.commons.math3.util.FastMath#1719" -> "org.apache.commons.math3.util.FastMath#1680";
+	"org.apache.commons.math3.util.FastMath#1719" -> "org.apache.commons.math3.util.FastMath#1700";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#129" -> "org.apache.commons.math3.util.FastMath#2228";
+	"org.apache.commons.math3.util.FastMath#2228" -> "org.apache.commons.math3.util.FastMath#1719";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#56" -> "org.apache.commons.math3.geometry.euclidean.twod.SubLine#139";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#139" -> "org.apache.commons.math3.geometry.euclidean.twod.Line#81";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#139" -> "org.apache.commons.math3.geometry.euclidean.twod.Line#181";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#181" -> "org.apache.commons.math3.geometry.euclidean.twod.Vector2D#150";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#181" -> "org.apache.commons.math3.geometry.euclidean.twod.Vector2D#158";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#181" -> "org.apache.commons.math3.geometry.euclidean.oned.Vector1D#65";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#139" -> "org.apache.commons.math3.geometry.euclidean.oned.Vector1D#128";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#139" -> "org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#47";
+	"org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#47" -> "org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#94";
+	"org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#94" -> "org.apache.commons.math3.geometry.euclidean.oned.Vector1D#65";
+	"org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#94" -> "org.apache.commons.math3.geometry.euclidean.oned.OrientedPoint#42";
+	"org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#94" -> "org.apache.commons.math3.geometry.euclidean.oned.OrientedPoint#29";
+	"org.apache.commons.math3.geometry.euclidean.oned.OrientedPoint#29" -> "org.apache.commons.math3.geometry.euclidean.oned.SubOrientedPoint#39";
+	"org.apache.commons.math3.geometry.euclidean.oned.SubOrientedPoint#39" -> "org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane#50";
+	"org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#94" -> "org.apache.commons.math3.geometry.partitioning.BSPTree#93";
+	"org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#94" -> "org.apache.commons.math3.geometry.partitioning.BSPTree#115";
+	"org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet#47" -> "org.apache.commons.math3.geometry.partitioning.AbstractRegion#67";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#56" -> "org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane#50";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLineTest#149" -> "org.apache.commons.math3.geometry.euclidean.twod.SubLine#113";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#113" -> "org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane#72";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#113" -> "org.apache.commons.math3.geometry.euclidean.twod.Line#198";
+	"org.apache.commons.math3.geometry.euclidean.twod.Line#198" -> "org.apache.commons.math3.util.FastMath#3025";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#113" -> "org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane#83";
+	"org.apache.commons.math3.geometry.euclidean.twod.SubLine#113" -> "org.apache.commons.math3.geometry.euclidean.twod.Line#181";
+}

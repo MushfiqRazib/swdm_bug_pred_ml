@@ -1,0 +1,39 @@
+digraph "cg/org.apache.commons.math.complex.ComplexTest#576"
+{
+	"org.apache.commons.math.complex.ComplexTest#576" [style=filled,fillcolor=green];
+	"org.apache.commons.math.complex.ComplexTest#576" -> "org.apache.commons.math.complex.Complex#98";
+	"org.apache.commons.math.complex.ComplexTest#576" -> "org.apache.commons.math.complex.Complex#579";
+	"org.apache.commons.math.complex.Complex#579" -> "org.apache.commons.math.complex.Complex#157";
+	"org.apache.commons.math.complex.Complex#157" -> "org.apache.commons.math.util.MathUtils#2334";
+	"org.apache.commons.math.complex.Complex#157" -> "org.apache.commons.math.complex.Complex#364";
+	"org.apache.commons.math.complex.Complex#157" -> "org.apache.commons.math.complex.Complex#355";
+	"org.apache.commons.math.complex.Complex#157" -> "org.apache.commons.math.complex.Complex#1127";
+	"org.apache.commons.math.complex.Complex#1127" -> "org.apache.commons.math.complex.Complex#98";
+	"org.apache.commons.math.complex.Complex#579" -> "org.apache.commons.math.complex.Complex#488";
+	"org.apache.commons.math.complex.Complex#488" -> "org.apache.commons.math.util.MathUtils#2334";
+	"org.apache.commons.math.complex.Complex#488" -> "org.apache.commons.math.complex.Complex#364";
+	"org.apache.commons.math.complex.Complex#488" -> "org.apache.commons.math.complex.Complex#355";
+	"org.apache.commons.math.complex.Complex#488" -> "org.apache.commons.math.complex.Complex#1127";
+	"org.apache.commons.math.complex.Complex#579" -> "org.apache.commons.math.complex.Complex#251";
+	"org.apache.commons.math.complex.Complex#251" -> "org.apache.commons.math.util.MathUtils#2334";
+	"org.apache.commons.math.complex.Complex#251" -> "org.apache.commons.math.complex.Complex#364";
+	"org.apache.commons.math.complex.Complex#251" -> "org.apache.commons.math.complex.Complex#355";
+	"org.apache.commons.math.complex.Complex#251" -> "org.apache.commons.math.complex.Complex#388";
+	"org.apache.commons.math.complex.Complex#251" -> "org.apache.commons.math.util.FastMath#3410";
+	"org.apache.commons.math.complex.Complex#251" -> "org.apache.commons.math.complex.Complex#1127";
+	"org.apache.commons.math.complex.Complex#579" -> "org.apache.commons.math.complex.Complex#746";
+	"org.apache.commons.math.complex.Complex#746" -> "org.apache.commons.math.complex.Complex#116";
+	"org.apache.commons.math.complex.Complex#116" -> "org.apache.commons.math.complex.Complex#388";
+	"org.apache.commons.math.complex.Complex#116" -> "org.apache.commons.math.util.FastMath#3410";
+	"org.apache.commons.math.complex.Complex#116" -> "org.apache.commons.math.util.FastMath#302";
+	"org.apache.commons.math.complex.Complex#746" -> "org.apache.commons.math.util.FastMath#1256";
+	"org.apache.commons.math.util.FastMath#1256" -> "org.apache.commons.math.util.FastMath#1266";
+	"org.apache.commons.math.complex.Complex#746" -> "org.apache.commons.math.util.FastMath#2973";
+	"org.apache.commons.math.complex.Complex#746" -> "org.apache.commons.math.complex.Complex#1127";
+	"org.apache.commons.math.complex.Complex#579" -> "org.apache.commons.math.complex.Complex#1127";
+	"org.apache.commons.math.complex.Complex#579" -> "org.apache.commons.math.complex.Complex#417";
+	"org.apache.commons.math.complex.Complex#417" -> "org.apache.commons.math.util.MathUtils#2334";
+	"org.apache.commons.math.complex.Complex#417" -> "org.apache.commons.math.complex.Complex#1127";
+	"org.apache.commons.math.complex.ComplexTest#576" -> "org.apache.commons.math.complex.Complex#1179";
+	"org.apache.commons.math.complex.ComplexTest#576" -> "org.apache.commons.math.complex.Complex#388";
+}

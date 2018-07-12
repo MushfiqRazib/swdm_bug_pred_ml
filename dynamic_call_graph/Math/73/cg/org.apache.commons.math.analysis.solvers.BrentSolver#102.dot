@@ -1,0 +1,23 @@
+digraph "cg/org.apache.commons.math.analysis.solvers.BrentSolverTest#318"
+{
+	"org.apache.commons.math.analysis.solvers.BrentSolverTest#318" [style=filled,fillcolor=green];
+	"org.apache.commons.math.analysis.solvers.BrentSolverTest#318" -> "org.apache.commons.math.analysis.SinFunction#31";
+	"org.apache.commons.math.analysis.solvers.BrentSolverTest#318" -> "org.apache.commons.math.analysis.solvers.BrentSolver#61";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#61" -> "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#93";
+	"org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#93" -> "org.apache.commons.math.ConvergingAlgorithmImpl#61";
+	"org.apache.commons.math.analysis.solvers.BrentSolverTest#318" -> "org.apache.commons.math.analysis.solvers.BrentSolver#164";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#164" -> "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#165";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#164" -> "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#208";
+	"org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#208" -> "org.apache.commons.math.MathRuntimeException#305";
+	"org.apache.commons.math.MathRuntimeException#305" -> "org.apache.commons.math.MathRuntimeException$4#305";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#164" -> "org.apache.commons.math.analysis.SinFunction#37";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#164" -> "org.apache.commons.math.MathRuntimeException#305";
+	"org.apache.commons.math.analysis.solvers.BrentSolverTest#318" -> "org.apache.commons.math.analysis.solvers.BrentSolver#102";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#102" -> "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#165";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#102" -> "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#225";
+	"org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#225" -> "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#196";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#102" -> "org.apache.commons.math.analysis.SinFunction#37";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#102" -> "org.apache.commons.math.analysis.solvers.BrentSolver#225";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#225" -> "org.apache.commons.math.analysis.SinFunction#37";
+	"org.apache.commons.math.analysis.solvers.BrentSolver#225" -> "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl#141";
+}

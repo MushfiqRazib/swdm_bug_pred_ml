@@ -1,0 +1,136 @@
+Metric results for commons-math at 6/23/18 5:41 PM
+
+Abstractness,17.3%
+Afferent Couplings,0
+Average Block Depth,1.07
+    minimum,0
+    maximum,10
+Average Cyclomatic Complexity,1.75
+    minimum,1
+    maximum,83
+Average Depth of Inheritance Hierarchy,3.14
+    minimum,1
+    maximum,7
+Average Lines Of Code Per Method,8.72
+    minimum,1
+    maximum,313
+Average Number of Constructors Per Type,0.96
+    minimum,0
+    maximum,7
+Average Number of Fields Per Type,1.75
+    minimum,0
+    maximum,39
+Average Number of Methods Per Type,6.79
+    minimum,0
+    maximum,82
+Average Number of Parameters,0.65
+    minimum,0
+    maximum,10
+Average Number of Subtypes,0.64
+    minimum,0
+    maximum,20
+Comments Ratio,16.8%
+Difficulty,345.05
+Distance,0.18
+Efferent Couplings,374
+Effort,"650,400,085.60"
+Instability,1.00
+Lines of Code,"36,683"
+Number of Characters,"2,839,621"
+Number of Comments,"6,182"
+    end-of-line,2099
+    multi-line,465
+    javadoc,3618
+Number of Constructors,470
+    public,430
+    protected,24
+    package,3
+    private,13
+Number of Fields,"1,179"
+    instance,828
+        public,0
+        protected,263
+        package,15
+        private,550
+    static,351
+        public,39
+        protected,2
+        package,10
+        private,300
+    public,39
+        instance,0
+        static,39
+    protected,265
+        instance,263
+        static,2
+    package,25
+        instance,15
+        static,10
+    private,850
+        instance,550
+        static,300
+Number of Lines,"77,471"
+Number of Methods,"3,297"
+    instance,2992
+        public,2427
+        protected,267
+        package,186
+        private,112
+    static,305
+        public,286
+        protected,9
+        package,0
+        private,10
+    public,2713
+        instance,2427
+        static,286
+    protected,276
+        instance,267
+        static,9
+    package,186
+        instance,186
+        static,0
+    private,122
+        instance,112
+        static,10
+Number of Operands,"100,565"
+Number of Operators,"47,254"
+Number of Packages,52
+    compilation units,395
+        minimum,0
+        average,7
+        maximum,40
+    class files,0
+        minimum,0
+        average,0
+        maximum,0
+Number of Semicolons,"20,989"
+Number of Types,485
+    interface,51
+        public,51
+        protected,0
+        package,0
+        private,0
+    class,434
+        public,330
+        protected,0
+        package,49
+        private,55
+    public,381
+        interface,51
+        class,330
+    protected,0
+        interface,0
+        class,0
+    package,49
+        interface,0
+        class,49
+    private,55
+        interface,0
+        class,55
+Number of Unique Operands,"6,849"
+Number of Unique Operators,47
+Program Length,"147,819"
+Program Vocabulary,"6,896"
+Program Volume,"1,884,920.49"
+Weighted Methods,"7,008"

@@ -1,0 +1,136 @@
+Metric results for jfreechart at 6/24/18 7:33 AM
+
+Abstractness,13.5%
+Afferent Couplings,0
+Average Block Depth,1.17
+    minimum,0
+    maximum,10
+Average Cyclomatic Complexity,2.02
+    minimum,1
+    maximum,57
+Average Depth of Inheritance Hierarchy,3.23
+    minimum,1
+    maximum,8
+Average Lines Of Code Per Method,10.41
+    minimum,1
+    maximum,306
+Average Number of Constructors Per Type,1.17
+    minimum,0
+    maximum,10
+Average Number of Fields Per Type,1.99
+    minimum,0
+    maximum,58
+Average Number of Methods Per Type,9.88
+    minimum,0
+    maximum,231
+Average Number of Parameters,0.95
+    minimum,0
+    maximum,12
+Average Number of Subtypes,0.71
+    minimum,0
+    maximum,136
+Comments Ratio,15.6%
+Difficulty,623.60
+Distance,0.13
+Efferent Couplings,"1,013"
+Effort,"4,544,510,435.77"
+Instability,1.00
+Lines of Code,"145,515"
+Number of Characters,"10,890,770"
+Number of Comments,"22,719"
+    end-of-line,5432
+    multi-line,1170
+    javadoc,16117
+Number of Constructors,"1,293"
+    public,1203
+    protected,38
+    package,0
+    private,52
+Number of Fields,"3,163"
+    instance,2152
+        public,15
+        protected,36
+        package,31
+        private,2070
+    static,1011
+        public,546
+        protected,43
+        package,49
+        private,373
+    public,561
+        instance,15
+        static,546
+    protected,79
+        instance,36
+        static,43
+    package,80
+        instance,31
+        static,49
+    private,2443
+        instance,2070
+        static,373
+Number of Lines,"320,829"
+Number of Methods,"10,881"
+    instance,10012
+        public,9063
+        protected,472
+        package,14
+        private,463
+    static,869
+        public,815
+        protected,4
+        package,0
+        private,50
+    public,9878
+        instance,9063
+        static,815
+    protected,476
+        instance,472
+        static,4
+    package,14
+        instance,14
+        static,0
+    private,513
+        instance,463
+        static,50
+Number of Operands,"365,348"
+Number of Operators,"166,929"
+Number of Packages,102
+    compilation units,1043
+        minimum,0
+        average,10
+        maximum,52
+    class files,0
+        minimum,0
+        average,0
+        maximum,0
+Number of Semicolons,"82,924"
+Number of Types,"1,101"
+    interface,116
+        public,116
+        protected,0
+        package,0
+        private,0
+    class,985
+        public,928
+        protected,7
+        package,48
+        private,2
+    public,1044
+        interface,116
+        class,928
+    protected,7
+        interface,0
+        class,7
+    package,48
+        interface,0
+        class,48
+    private,2
+        interface,0
+        class,2
+Number of Unique Operands,"13,182"
+Number of Unique Operators,45
+Program Length,"532,277"
+Program Vocabulary,"13,227"
+Program Volume,"7,287,509.93"
+Weighted Methods,"24,704"

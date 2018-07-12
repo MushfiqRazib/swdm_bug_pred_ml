@@ -1,0 +1,13 @@
+digraph "cg/org.apache.commons.math3.complex.ComplexTest#303"
+{
+	"org.apache.commons.math3.complex.ComplexTest#303" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.complex.ComplexTest#303" -> "org.apache.commons.math3.complex.Complex#98";
+	"org.apache.commons.math3.complex.ComplexTest#303" -> "org.apache.commons.math3.complex.Complex#300";
+	"org.apache.commons.math3.complex.Complex#300" -> "org.apache.commons.math3.util.FastMath#3017";
+	"org.apache.commons.math3.complex.Complex#300" -> "org.apache.commons.math3.complex.Complex#1176";
+	"org.apache.commons.math3.complex.Complex#1176" -> "org.apache.commons.math3.complex.Complex#98";
+	"org.apache.commons.math3.complex.ComplexTest#303" -> "org.apache.commons.math3.complex.Complex#385";
+	"org.apache.commons.math3.complex.ComplexTest#303" -> "org.apache.commons.math3.util.FastMath#3026";
+	"org.apache.commons.math3.util.FastMath#3026" -> "org.apache.commons.math3.util.FastMath#3017";
+	"org.apache.commons.math3.complex.ComplexTest#303" -> "org.apache.commons.math3.complex.Complex#376";
+}

@@ -1,0 +1,10 @@
+digraph "cg/org.apache.commons.math.util.MathUtilsTest#235"
+{
+	"org.apache.commons.math.util.MathUtilsTest#235" [style=filled,fillcolor=green];
+	"org.apache.commons.math.util.MathUtilsTest#235" -> "org.apache.commons.math.util.MathUtilsTest#59";
+	"org.apache.commons.math.util.MathUtilsTest#235" -> "org.apache.commons.math.util.MathUtils#345";
+	"org.apache.commons.math.util.MathUtils#345" -> "org.apache.commons.math.util.MathUtils#374";
+	"org.apache.commons.math.util.MathUtils#374" -> "org.apache.commons.math.util.MathUtils#394";
+	"org.apache.commons.math.util.MathUtilsTest#235" -> "org.apache.commons.math.util.MathUtils#374";
+	"org.apache.commons.math.util.MathUtilsTest#235" -> "org.apache.commons.math.util.MathUtils#394";
+}

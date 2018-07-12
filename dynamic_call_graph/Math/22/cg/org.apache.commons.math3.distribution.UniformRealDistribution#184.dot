@@ -1,0 +1,7 @@
+digraph "cg/org.apache.commons.math3.distribution.UniformRealDistributionTest#364"
+{
+	"org.apache.commons.math3.distribution.UniformRealDistributionTest#364" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.distribution.UniformRealDistributionTest#364" -> "org.apache.commons.math3.distribution.UniformRealDistribution#174";
+	"org.apache.commons.math3.distribution.UniformRealDistributionTest#364" -> "org.apache.commons.math3.distribution.UniformRealDistribution#109";
+	"org.apache.commons.math3.distribution.UniformRealDistributionTest#364" -> "org.apache.commons.math3.distribution.UniformRealDistribution#184";
+}

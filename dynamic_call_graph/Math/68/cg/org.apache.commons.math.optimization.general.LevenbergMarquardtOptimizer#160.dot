@@ -1,0 +1,47 @@
+digraph "cg/org.apache.commons.math.optimization.general.MinpackTest#146"
+{
+	"org.apache.commons.math.optimization.general.MinpackTest#146" [style=filled,fillcolor=green];
+	"org.apache.commons.math.optimization.general.MinpackTest#146" -> "org.apache.commons.math.optimization.general.MinpackTest$FreudensteinRothFunction#841";
+	"org.apache.commons.math.optimization.general.MinpackTest$FreudensteinRothFunction#841" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#524";
+	"org.apache.commons.math.optimization.general.MinpackTest#146" -> "org.apache.commons.math.optimization.general.MinpackTest#490";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#160";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#160" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#115";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#115" -> "org.apache.commons.math.optimization.SimpleVectorialValueChecker#50";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#115" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#158";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#115" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#123";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#115" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#138";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#160" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#123";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#160" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#183";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#160" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#193";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#160" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#204";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#160" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#215";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#561";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#123";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#193";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#204";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#215";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#541";
+	"org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#541" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#535";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#545";
+	"org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#545" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#535";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#549";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#329";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#329" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#581";
+	"org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#581" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction$1#581";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#329" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#207";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#207" -> "org.apache.commons.math.optimization.general.MinpackTest$FreudensteinRothFunction#856";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#172";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#183";
+	"org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#183" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction$1#584";
+	"org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction$1#584" -> "org.apache.commons.math.optimization.general.MinpackTest$FreudensteinRothFunction#847";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#766";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#840";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#473";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#473" -> "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#642";
+	"org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer#224" -> "org.apache.commons.math.optimization.VectorialPointValuePair#46";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer#239";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#565";
+	"org.apache.commons.math.optimization.general.MinpackTest#490" -> "org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#570";
+	"org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction#570" -> "org.apache.commons.math.optimization.VectorialPointValuePair#77";
+}

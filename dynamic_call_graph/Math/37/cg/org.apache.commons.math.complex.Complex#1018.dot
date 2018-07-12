@@ -1,0 +1,29 @@
+digraph "cg/org.apache.commons.math.complex.ComplexTest#996"
+{
+	"org.apache.commons.math.complex.ComplexTest#996" [style=filled,fillcolor=green];
+	"org.apache.commons.math.complex.ComplexTest#996" -> "org.apache.commons.math.complex.Complex#98";
+	"org.apache.commons.math.complex.ComplexTest#996" -> "org.apache.commons.math.complex.Complex#1018";
+	"org.apache.commons.math.complex.Complex#1018" -> "org.apache.commons.math.util.FastMath#2233";
+	"org.apache.commons.math.util.FastMath#2233" -> "org.apache.commons.math.util.FastMath#1627";
+	"org.apache.commons.math.util.FastMath#1627" -> "org.apache.commons.math.util.FastMath#1588";
+	"org.apache.commons.math.util.FastMath#1627" -> "org.apache.commons.math.util.FastMath#1608";
+	"org.apache.commons.math.complex.Complex#1018" -> "org.apache.commons.math.util.FastMath#383";
+	"org.apache.commons.math.util.FastMath#383" -> "org.apache.commons.math.util.FastMath#826";
+	"org.apache.commons.math.util.FastMath#826" -> "org.apache.commons.math.util.FastMath$ExpIntTable#3711";
+	"org.apache.commons.math.util.FastMath#826" -> "org.apache.commons.math.util.FastMath$ExpIntTable#3711";
+	"org.apache.commons.math.util.FastMath#826" -> "org.apache.commons.math.util.FastMath$ExpFracTable#3754";
+	"org.apache.commons.math.util.FastMath#826" -> "org.apache.commons.math.util.FastMath$ExpFracTable#3754";
+	"org.apache.commons.math.complex.Complex#1018" -> "org.apache.commons.math.util.FastMath#2135";
+	"org.apache.commons.math.util.FastMath#2135" -> "org.apache.commons.math.util.FastMath#1751";
+	"org.apache.commons.math.util.FastMath#1751" -> "org.apache.commons.math.util.FastMath#1627";
+	"org.apache.commons.math.complex.Complex#1018" -> "org.apache.commons.math.util.FastMath#442";
+	"org.apache.commons.math.util.FastMath#442" -> "org.apache.commons.math.util.FastMath#826";
+	"org.apache.commons.math.complex.Complex#1018" -> "org.apache.commons.math.complex.Complex#1166";
+	"org.apache.commons.math.complex.Complex#1166" -> "org.apache.commons.math.complex.Complex#98";
+	"org.apache.commons.math.complex.ComplexTest#996" -> "org.apache.commons.math.TestUtils#94";
+	"org.apache.commons.math.TestUtils#94" -> "org.apache.commons.math.complex.Complex#385";
+	"org.apache.commons.math.TestUtils#94" -> "org.apache.commons.math.complex.Complex#376";
+	"org.apache.commons.math.util.FastMath#383" -> "org.apache.commons.math.util.FastMath#807";
+	"org.apache.commons.math.util.FastMath#807" -> "org.apache.commons.math.util.FastMath#826";
+	"org.apache.commons.math.util.FastMath#442" -> "org.apache.commons.math.util.FastMath#807";
+}

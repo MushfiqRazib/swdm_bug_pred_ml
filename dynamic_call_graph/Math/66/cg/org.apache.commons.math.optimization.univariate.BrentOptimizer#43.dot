@@ -1,0 +1,36 @@
+digraph "cg/org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36"
+{
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" [style=filled,fillcolor=green];
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.analysis.SinFunction#31";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.optimization.univariate.BrentOptimizer#43";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#43" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#82";
+	"org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#82" -> "org.apache.commons.math.ConvergingAlgorithmImpl#78";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#43" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#142";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#43" -> "org.apache.commons.math.ConvergingAlgorithmImpl#102";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#43" -> "org.apache.commons.math.ConvergingAlgorithmImpl#87";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#43" -> "org.apache.commons.math.ConvergingAlgorithmImpl#117";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.random.JDKRandomGenerator#28";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#80";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#80" -> "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#152";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#80" -> "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#157";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#231";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#231" -> "org.apache.commons.math.ConvergingAlgorithmImpl#102";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#231" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#142";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#231" -> "org.apache.commons.math.optimization.univariate.BrentOptimizer#66";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#66" -> "org.apache.commons.math.optimization.univariate.BrentOptimizer#60";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#60" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#137";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#60" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#159";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#60" -> "org.apache.commons.math.ConvergingAlgorithmImpl#122";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#60" -> "org.apache.commons.math.ConvergingAlgorithmImpl#92";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#60" -> "org.apache.commons.math.optimization.univariate.BrentOptimizer#99";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#99" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#193";
+	"org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#193" -> "org.apache.commons.math.analysis.SinFunction#37";
+	"org.apache.commons.math.optimization.univariate.BrentOptimizer#99" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#126";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#231" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#105";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#231" -> "org.apache.commons.math.ConvergingAlgorithmImpl#82";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#231" -> "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer#152";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#193";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#219";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.analysis.SinFunction#37";
+	"org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest#36" -> "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer#122";
+}

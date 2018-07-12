@@ -1,0 +1,7 @@
+digraph "cg/org.apache.commons.math.util.MathUtilsTest#566"
+{
+	"org.apache.commons.math.util.MathUtilsTest#566" [style=filled,fillcolor=green];
+	"org.apache.commons.math.util.MathUtilsTest#566" -> "org.apache.commons.math.util.MathUtils#710";
+	"org.apache.commons.math.util.MathUtils#710" -> "org.apache.commons.math.util.MathUtils#540";
+	"org.apache.commons.math.util.MathUtils#710" -> "org.apache.commons.math.util.MathUtils#748";
+}

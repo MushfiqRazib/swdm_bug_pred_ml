@@ -1,0 +1,23 @@
+digraph "cg/org.apache.commons.math.geometry.euclidean.threed.RotationTest#481"
+{
+	"org.apache.commons.math.geometry.euclidean.threed.RotationTest#481" [style=filled,fillcolor=green];
+	"org.apache.commons.math.geometry.euclidean.threed.RotationTest#481" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#93";
+	"org.apache.commons.math.geometry.euclidean.threed.RotationTest#481" -> "org.apache.commons.math.geometry.euclidean.threed.Rotation#313";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#224";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.util.FastMath#302";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#120";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#428";
+	"org.apache.commons.math.geometry.euclidean.threed.Vector3D#428" -> "org.apache.commons.math.util.MathUtils#2448";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#134";
+	"org.apache.commons.math.geometry.euclidean.threed.Vector3D#134" -> "org.apache.commons.math.util.MathUtils#2375";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#261";
+	"org.apache.commons.math.geometry.euclidean.threed.Vector3D#261" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#93";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#437";
+	"org.apache.commons.math.geometry.euclidean.threed.Vector3D#437" -> "org.apache.commons.math.util.MathUtils#2375";
+	"org.apache.commons.math.geometry.euclidean.threed.Vector3D#437" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#93";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#181";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#189";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#197";
+	"org.apache.commons.math.geometry.euclidean.threed.Rotation#313" -> "org.apache.commons.math.geometry.euclidean.threed.Vector3D#93";
+	"org.apache.commons.math.geometry.euclidean.threed.RotationTest#481" -> "org.apache.commons.math.geometry.euclidean.threed.Rotation#481";
+}

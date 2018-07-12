@@ -1,0 +1,38 @@
+digraph "cg/org.apache.commons.math3.distribution.GammaDistributionTest#385"
+{
+	"org.apache.commons.math3.distribution.GammaDistributionTest#385" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.distribution.GammaDistributionTest#385" -> "org.apache.commons.math3.distribution.AbstractRealDistribution#246";
+	"org.apache.commons.math3.distribution.AbstractRealDistribution#246" -> "org.apache.commons.math3.random.AbstractWell#179";
+	"org.apache.commons.math3.random.AbstractWell#179" -> "org.apache.commons.math3.random.AbstractWell#154";
+	"org.apache.commons.math3.random.AbstractWell#154" -> "org.apache.commons.math3.random.BitsStreamGenerator#167";
+	"org.apache.commons.math3.distribution.AbstractRealDistribution#246" -> "org.apache.commons.math3.random.RandomDataImpl#461";
+	"org.apache.commons.math3.random.RandomDataImpl#461" -> "org.apache.commons.math3.random.RandomDataGenerator#648";
+	"org.apache.commons.math3.random.RandomDataGenerator#648" -> "org.apache.commons.math3.random.RandomDataGenerator#714";
+	"org.apache.commons.math3.random.RandomDataGenerator#714" -> "org.apache.commons.math3.random.RandomDataGenerator#725";
+	"org.apache.commons.math3.random.RandomDataGenerator#725" -> "org.apache.commons.math3.random.Well19937c#79";
+	"org.apache.commons.math3.random.Well19937c#79" -> "org.apache.commons.math3.random.AbstractWell#132";
+	"org.apache.commons.math3.random.AbstractWell#132" -> "org.apache.commons.math3.random.AbstractWell#94";
+	"org.apache.commons.math3.random.AbstractWell#94" -> "org.apache.commons.math3.random.BitsStreamGenerator#37";
+	"org.apache.commons.math3.random.AbstractWell#94" -> "org.apache.commons.math3.random.AbstractWell#154";
+	"org.apache.commons.math3.random.RandomDataGenerator#648" -> "org.apache.commons.math3.random.AbstractWell#179";
+	"org.apache.commons.math3.distribution.GammaDistributionTest#385" -> "org.apache.commons.math3.distribution.GammaDistribution#374";
+	"org.apache.commons.math3.distribution.GammaDistribution#374" -> "org.apache.commons.math3.util.FastMath#379";
+	"org.apache.commons.math3.distribution.GammaDistribution#374" -> "org.apache.commons.math3.random.BitsStreamGenerator#101";
+	"org.apache.commons.math3.random.BitsStreamGenerator#101" -> "org.apache.commons.math3.random.BitsStreamGenerator#87";
+	"org.apache.commons.math3.random.BitsStreamGenerator#87" -> "org.apache.commons.math3.random.Well19937c#86";
+	"org.apache.commons.math3.random.BitsStreamGenerator#101" -> "org.apache.commons.math3.util.FastMath#1120";
+	"org.apache.commons.math3.util.FastMath#1120" -> "org.apache.commons.math3.util.FastMath#1130";
+	"org.apache.commons.math3.util.FastMath#1130" -> "org.apache.commons.math3.util.FastMath$lnMant#3777";
+	"org.apache.commons.math3.random.BitsStreamGenerator#101" -> "org.apache.commons.math3.util.FastMath#379";
+	"org.apache.commons.math3.random.BitsStreamGenerator#101" -> "org.apache.commons.math3.util.FastMath#2293";
+	"org.apache.commons.math3.util.FastMath#2293" -> "org.apache.commons.math3.util.FastMath#1841";
+	"org.apache.commons.math3.util.FastMath#1841" -> "org.apache.commons.math3.util.FastMath#1717";
+	"org.apache.commons.math3.util.FastMath#1717" -> "org.apache.commons.math3.util.FastMath#1678";
+	"org.apache.commons.math3.util.FastMath#1717" -> "org.apache.commons.math3.util.FastMath#1698";
+	"org.apache.commons.math3.random.BitsStreamGenerator#101" -> "org.apache.commons.math3.util.FastMath#2226";
+	"org.apache.commons.math3.util.FastMath#2226" -> "org.apache.commons.math3.util.FastMath#1717";
+	"org.apache.commons.math3.distribution.GammaDistribution#374" -> "org.apache.commons.math3.random.BitsStreamGenerator#87";
+	"org.apache.commons.math3.distribution.GammaDistributionTest#385" -> "org.apache.commons.math3.distribution.RealDistributionAbstractTest#497";
+	"org.apache.commons.math3.distribution.RealDistributionAbstractTest#497" -> "org.apache.commons.math3.random.BitsStreamGenerator#37";
+	"org.apache.commons.math3.distribution.GammaDistribution#374" -> "org.apache.commons.math3.util.FastMath#1120";
+}

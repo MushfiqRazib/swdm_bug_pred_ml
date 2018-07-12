@@ -1,0 +1,10 @@
+digraph "cg/org.apache.commons.math3.fraction.FractionTest#247"
+{
+	"org.apache.commons.math3.fraction.FractionTest#247" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.fraction.FractionTest#247" -> "org.apache.commons.math3.fraction.Fraction#256";
+	"org.apache.commons.math3.fraction.Fraction#256" -> "org.apache.commons.math3.util.ArithmeticUtils#385";
+	"org.apache.commons.math3.fraction.FractionTest#247" -> "org.apache.commons.math3.fraction.Fraction#597";
+	"org.apache.commons.math3.fraction.Fraction#597" -> "org.apache.commons.math3.fraction.Fraction#555";
+	"org.apache.commons.math3.fraction.Fraction#555" -> "org.apache.commons.math3.fraction.Fraction#256";
+	"org.apache.commons.math3.fraction.Fraction#597" -> "org.apache.commons.math3.fraction.Fraction#319";
+}

@@ -1,0 +1,14 @@
+digraph "cg/org.apache.commons.math.analysis.BrentSolverTest#272"
+{
+	"org.apache.commons.math.analysis.BrentSolverTest#272" [style=filled,fillcolor=green];
+	"org.apache.commons.math.analysis.BrentSolverTest#272" -> "org.apache.commons.math.analysis.SinFunction#31";
+	"org.apache.commons.math.analysis.BrentSolverTest#272" -> "org.apache.commons.math.analysis.BrentSolver#42";
+	"org.apache.commons.math.analysis.BrentSolver#42" -> "org.apache.commons.math.analysis.UnivariateRealSolverImpl#87";
+	"org.apache.commons.math.analysis.BrentSolverTest#272" -> "org.apache.commons.math.analysis.BrentSolver#128";
+	"org.apache.commons.math.analysis.BrentSolver#128" -> "org.apache.commons.math.analysis.UnivariateRealSolverImpl#149";
+	"org.apache.commons.math.analysis.BrentSolver#128" -> "org.apache.commons.math.analysis.UnivariateRealSolverImpl#295";
+	"org.apache.commons.math.analysis.BrentSolver#128" -> "org.apache.commons.math.analysis.SinFunction#37";
+	"org.apache.commons.math.analysis.BrentSolver#128" -> "org.apache.commons.math.analysis.BrentSolver#175";
+	"org.apache.commons.math.analysis.BrentSolver#175" -> "org.apache.commons.math.analysis.UnivariateRealSolverImpl#140";
+	"org.apache.commons.math.analysis.BrentSolverTest#272" -> "org.apache.commons.math.analysis.UnivariateRealSolverImpl#169";
+}

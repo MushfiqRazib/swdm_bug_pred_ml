@@ -1,0 +1,20 @@
+digraph "cg/org.apache.commons.math.stat.inference.ChiSquareFactoryTest#53"
+{
+	"org.apache.commons.math.stat.inference.ChiSquareFactoryTest#53" [style=filled,fillcolor=green];
+	"org.apache.commons.math.stat.inference.ChiSquareFactoryTest#53" -> "org.apache.commons.math.stat.inference.ChiSquareTestImpl#66";
+	"org.apache.commons.math.stat.inference.ChiSquareTestImpl#66" -> "org.apache.commons.math.stat.inference.ChiSquareTestImpl#350";
+	"org.apache.commons.math.stat.inference.ChiSquareTestImpl#66" -> "org.apache.commons.math.stat.inference.ChiSquareTestImpl#367";
+	"org.apache.commons.math.stat.inference.ChiSquareFactoryTest#53" -> "org.apache.commons.math.stat.inference.ChiSquareTestImpl#97";
+	"org.apache.commons.math.stat.inference.ChiSquareTestImpl#97" -> "org.apache.commons.math.distribution.ChiSquaredDistributionImpl#63";
+	"org.apache.commons.math.distribution.ChiSquaredDistributionImpl#63" -> "org.apache.commons.math.distribution.ChiSquaredDistributionImpl#189";
+	"org.apache.commons.math.distribution.ChiSquaredDistributionImpl#63" -> "org.apache.commons.math.distribution.GammaDistributionImpl#111";
+	"org.apache.commons.math.stat.inference.ChiSquareTestImpl#97" -> "org.apache.commons.math.stat.inference.ChiSquareTestImpl#66";
+	"org.apache.commons.math.stat.inference.ChiSquareTestImpl#97" -> "org.apache.commons.math.distribution.ChiSquaredDistributionImpl#82";
+	"org.apache.commons.math.distribution.ChiSquaredDistributionImpl#82" -> "org.apache.commons.math.distribution.ChiSquaredDistributionImpl#189";
+	"org.apache.commons.math.distribution.ChiSquaredDistributionImpl#82" -> "org.apache.commons.math.distribution.GammaDistributionImpl#72";
+	"org.apache.commons.math.distribution.GammaDistributionImpl#72" -> "org.apache.commons.math.distribution.GammaDistributionImpl#122";
+	"org.apache.commons.math.distribution.GammaDistributionImpl#72" -> "org.apache.commons.math.distribution.GammaDistributionImpl#142";
+	"org.apache.commons.math.distribution.GammaDistributionImpl#72" -> "org.apache.commons.math.special.Gamma#120";
+	"org.apache.commons.math.special.Gamma#120" -> "org.apache.commons.math.special.Gamma#158";
+	"org.apache.commons.math.special.Gamma#158" -> "org.apache.commons.math.special.Gamma#90";
+}

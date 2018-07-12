@@ -1,0 +1,8 @@
+digraph "cg/org.apache.commons.math.fraction.FractionTest#164"
+{
+	"org.apache.commons.math.fraction.FractionTest#164" [style=filled,fillcolor=green];
+	"org.apache.commons.math.fraction.FractionTest#164" -> "org.apache.commons.math.fraction.Fraction#209";
+	"org.apache.commons.math.fraction.Fraction#209" -> "org.apache.commons.math.util.MathUtils#561";
+	"org.apache.commons.math.fraction.FractionTest#164" -> "org.apache.commons.math.fraction.Fraction#259";
+	"org.apache.commons.math.fraction.Fraction#259" -> "org.apache.commons.math.fraction.Fraction#270";
+}

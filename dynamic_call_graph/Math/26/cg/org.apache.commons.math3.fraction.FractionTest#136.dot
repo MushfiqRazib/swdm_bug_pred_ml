@@ -1,0 +1,18 @@
+digraph "cg/org.apache.commons.math3.fraction.FractionTest#136"
+{
+	"org.apache.commons.math3.fraction.FractionTest#136" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.fraction.FractionTest#136" -> "org.apache.commons.math3.fraction.FractionTest#144";
+	"org.apache.commons.math3.fraction.FractionTest#144" -> "org.apache.commons.math3.fraction.Fraction#121";
+	"org.apache.commons.math3.fraction.Fraction#121" -> "org.apache.commons.math3.fraction.Fraction#177";
+	"org.apache.commons.math3.fraction.Fraction#177" -> "org.apache.commons.math3.util.FastMath#3241";
+	"org.apache.commons.math3.fraction.Fraction#177" -> "org.apache.commons.math3.util.FastMath#2927";
+	"org.apache.commons.math3.fraction.Fraction#177" -> "org.apache.commons.math3.fraction.FractionConversionException#53";
+	"org.apache.commons.math3.fraction.FractionConversionException#53" -> "org.apache.commons.math3.exception.ConvergenceException#48";
+	"org.apache.commons.math3.exception.ConvergenceException#48" -> "org.apache.commons.math3.exception.MathIllegalStateException#69";
+	"org.apache.commons.math3.exception.MathIllegalStateException#69" -> "org.apache.commons.math3.exception.MathIllegalStateException#45";
+	"org.apache.commons.math3.exception.MathIllegalStateException#45" -> "org.apache.commons.math3.exception.util.ExceptionContext#64";
+	"org.apache.commons.math3.exception.MathIllegalStateException#45" -> "org.apache.commons.math3.exception.util.ExceptionContext#87";
+	"org.apache.commons.math3.exception.util.ExceptionContext#87" -> "org.apache.commons.math3.exception.util.ArgUtils#42";
+	"org.apache.commons.math3.exception.ConvergenceException#48" -> "org.apache.commons.math3.exception.MathIllegalStateException#74";
+	"org.apache.commons.math3.exception.ConvergenceException#48" -> "org.apache.commons.math3.exception.util.ExceptionContext#87";
+}

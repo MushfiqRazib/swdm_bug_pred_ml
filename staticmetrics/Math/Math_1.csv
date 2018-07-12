@@ -1,0 +1,136 @@
+Metric results for Math_1_buggy at 6/22/18 4:23 PM
+
+Abstractness,11.4%
+Afferent Couplings,0
+Average Block Depth,1.19
+    minimum,0
+    maximum,10
+Average Cyclomatic Complexity,2.01
+    minimum,1
+    maximum,140
+Average Depth of Inheritance Hierarchy,2.48
+    minimum,1
+    maximum,9
+Average Lines Of Code Per Method,11.07
+    minimum,1
+    maximum,637
+Average Number of Constructors Per Type,0.76
+    minimum,0
+    maximum,20
+Average Number of Fields Per Type,1.51
+    minimum,0
+    maximum,314
+Average Number of Methods Per Type,5.62
+    minimum,0
+    maximum,127
+Average Number of Parameters,0.77
+    minimum,0
+    maximum,16
+Average Number of Subtypes,0.67
+    minimum,0
+    maximum,104
+Comments Ratio,14.6%
+Difficulty,337.78
+Distance,0.14
+Efferent Couplings,"1,234"
+Effort,"3,760,843,230.36"
+Instability,1.00
+Lines of Code,"170,556"
+Number of Characters,"12,009,080"
+Number of Comments,"24,922"
+    end-of-line,10521
+    multi-line,1877
+    javadoc,12524
+Number of Constructors,"1,615"
+    public,1332
+    protected,129
+    package,84
+    private,70
+Number of Fields,"4,294"
+    instance,3151
+        public,0
+        protected,462
+        package,514
+        private,2175
+    static,1143
+        public,192
+        protected,28
+        package,22
+        private,901
+    public,192
+        instance,0
+        static,192
+    protected,490
+        instance,462
+        static,28
+    package,536
+        instance,514
+        static,22
+    private,3076
+        instance,2175
+        static,901
+Number of Lines,"305,915"
+Number of Methods,"11,808"
+    instance,10971
+        public,9049
+        protected,577
+        package,621
+        private,724
+    static,837
+        public,597
+        protected,33
+        package,23
+        private,184
+    public,9646
+        instance,9049
+        static,597
+    protected,610
+        instance,577
+        static,33
+    package,644
+        instance,621
+        static,23
+    private,908
+        instance,724
+        static,184
+Number of Operands,"500,615"
+Number of Operators,"226,287"
+Number of Packages,140
+    compilation units,1309
+        minimum,0
+        average,9
+        maximum,66
+    class files,0
+        minimum,0
+        average,0
+        maximum,0
+Number of Semicolons,"91,256"
+Number of Types,"2,099"
+    interface,138
+        public,135
+        protected,0
+        package,0
+        private,3
+    class,1961
+        public,1127
+        protected,8
+        package,535
+        private,291
+    public,1262
+        interface,135
+        class,1127
+    protected,8
+        interface,0
+        class,8
+    package,535
+        interface,0
+        class,535
+    private,294
+        interface,3
+        class,291
+Number of Unique Operands,"40,756"
+Number of Unique Operators,55
+Program Length,"726,902"
+Program Vocabulary,"40,811"
+Program Volume,"11,133,718.37"
+Weighted Methods,"27,137"

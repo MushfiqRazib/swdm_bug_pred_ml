@@ -1,0 +1,23 @@
+digraph "cg/org.apache.commons.math3.geometry.euclidean.threed.LineTest#136"
+{
+	"org.apache.commons.math3.geometry.euclidean.threed.LineTest#136" [style=filled,fillcolor=green];
+	"org.apache.commons.math3.geometry.euclidean.threed.LineTest#136" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#95";
+	"org.apache.commons.math3.geometry.euclidean.threed.LineTest#136" -> "org.apache.commons.math3.geometry.euclidean.threed.Line#54";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#54" -> "org.apache.commons.math3.geometry.euclidean.threed.Line#74";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#74" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#286";
+	"org.apache.commons.math3.geometry.euclidean.threed.Vector3D#286" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#95";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#74" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#249";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#74" -> "org.apache.commons.math3.util.FastMath#379";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#74" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#137";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#74" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#453";
+	"org.apache.commons.math3.geometry.euclidean.threed.Vector3D#453" -> "org.apache.commons.math3.util.MathArrays#946";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#74" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#151";
+	"org.apache.commons.math3.geometry.euclidean.threed.Vector3D#151" -> "org.apache.commons.math3.util.MathArrays#866";
+	"org.apache.commons.math3.geometry.euclidean.threed.LineTest#136" -> "org.apache.commons.math3.geometry.euclidean.threed.Line#95";
+	"org.apache.commons.math3.geometry.euclidean.threed.LineTest#136" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#374";
+	"org.apache.commons.math3.geometry.euclidean.threed.Vector3D#374" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#95";
+	"org.apache.commons.math3.geometry.euclidean.threed.LineTest#136" -> "org.apache.commons.math3.geometry.euclidean.threed.Line#87";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#87" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#286";
+	"org.apache.commons.math3.geometry.euclidean.threed.Line#87" -> "org.apache.commons.math3.geometry.euclidean.threed.Line#54";
+	"org.apache.commons.math3.geometry.euclidean.threed.LineTest#136" -> "org.apache.commons.math3.geometry.euclidean.threed.Vector3D#222";
+}
