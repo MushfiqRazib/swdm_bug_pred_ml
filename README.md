@@ -7,10 +7,16 @@ Defects4J: https://github.com/rjust/defects4j
 ## INITIAL SETUP
 Below files/folders needs to be in the path location:  
 
-1. All the Defects4j projects spectra and matrix folder.  
-2. 'staticmetrics' folder - generated static metrics data from codepro tools.  
-3. 'spectra_faulty_methods_diffu.csv' - contain faulty node list  
-4. 'dynamic_call_graph' folder - contains all the call graph of the 5 projects.  
+1. All the Defects4j projects spectra and matrix folder.   
+2. 'method_data_fixed' folder - contains fixed spectra, matrix file of below buggy versions.   
+    Have to copy these file in the corresponding Defects4j projects.  
+    These versions are giving error of having 'tab space' and numpy shape mismatch in the matrix file.  
+    Fixed the below versions error with:   
+    Time: 2   
+    Closure: 2, 17, 31, 43, 54, 64, 80, 90, 109, 120   
+3. 'staticmetrics' folder - generated static metrics data from codepro tools.  
+4. 'spectra_faulty_methods_diffu.csv' - contain faulty node list  
+5. 'dynamic_call_graph' folder - contains all the call graph of the 5 projects.  
 
 ## FOLDER DESCRIPTION
 1. dataset_final - 3 csf files with 63/46/14 features and class data.  
