@@ -9,8 +9,8 @@ Below files/folders needs to be in the path location:
 
 1. All the Defects4j projects spectra and matrix folder.   
 2. 'method_data_fixed' folder - contains fixed spectra, matrix file of below buggy versions.   
-    Have to copy these file in the corresponding Defects4j projects.  
-    These versions are giving error of having 'tab space' and numpy shape mismatch in the matrix file.  
+    Have to download these versions files in the corresponding Defects4j projects (Time, Closure).    
+    These versions are giving error of having 'tab space' and numpy shape mismatch in the matrix file which was fixed.    
     Fixed the below versions error with:   
     Time: 2   
     Closure: 2, 17, 31, 43, 54, 64, 80, 90, 109, 120   
