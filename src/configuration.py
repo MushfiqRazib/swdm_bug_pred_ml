@@ -41,8 +41,8 @@ class Configuration():
         self.MOCKITO_PATH = os.path.join(self.ROOT_PATH, self.MOCKITO_ID +'/')
         self.PROJECTS_ID = [self.CHART_ID, self.LANG_ID, self.MATH_ID, self.TIME_ID, self.CLOSURE_ID]
         self.PROJECTS_DATA_PATH = [self.CHART_PATH, self.LANG_PATH, self.MATH_PATH, self.TIME_PATH, self.CLOSURE_PATH]
-        #self.PROJECTS_ID = [self.LANG_ID]
-        #self.PROJECTS_DATA_PATH = [self.LANG_PATH]
+        #self.PROJECTS_ID = [self.CLOSURE_ID]
+        #self.PROJECTS_DATA_PATH = [self.CLOSURE_PATH]
         # variable for dynamic metrics
         self.LANG_CALL_GRAPH_PATH = os.path.join(self.DYNAMIC_CALL_GRAPH_PATH, self.LANG_ID + '/')
         self.TIME_CALL_GRAPH_PATH = os.path.join(self.DYNAMIC_CALL_GRAPH_PATH, self.TIME_ID + '/')

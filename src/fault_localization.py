@@ -34,8 +34,14 @@ class FaultLocalization():
         self.suspicious_values = []
         self.distinct_values = []
         self.suspicious_path = os.path.join(self.conf.ROOT_PATH, 'suspiciousness_ranking/')
-        if not os.path.exists(self.suspicious_path):
+        #print(self.suspicious_path)
+
+        if os.path.isdir(self.suspicious_path):
+            print(self.suspicious_path + ' directory exists...')
+        else:
+            print(self.suspicious_path + ' directory created...')
             self.conf.handle_dir(self.suspicious_path)
+
 
     def update_values(self):
         self.num_of_failed_test_cases_cover_statement_Ncf = 0
@@ -89,8 +95,10 @@ class FaultLocalization():
 
     def print_suspiciousness_ranking_table(self, filename):
         print('writing csv for :', filename)
+        #print(self.suspicious_path)
         susp_arr = np.array(self.suspicious_values)
-        with open(self.suspicious_path + filename +'.csv', 'w') as csvfile:
+        filename = filename +'.csv'
+        with open(self.suspicious_path + filename, 'w') as csvfile:
             columnTitleRow = "Method_Call_No,Suspiciousness,Ranking\n"
             csvfile.write(columnTitleRow)
             for i in range(0, susp_arr.shape[0]):
@@ -113,6 +121,7 @@ class FaultLocalization():
                         self.generate_ranking()
                         buggy_version = re.findall('\d+', filepath)
                         filename = self.conf.PROJECTS_ID[i] + '_' + buggy_version[0]
+                        #print(filename)
                         self.print_suspiciousness_ranking_table(filename)
         #mat = self.load_matrix()
         #mat_arr = np.asarray(mat)
