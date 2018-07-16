@@ -1,9 +1,7 @@
 # swdm_bug_pred_ml  
 Exploring the Relationship between Design Metrics and Software Diagnosability using Machine Learning (IN2106, IN0012, IN4238)  
 ## Software Design Metrics Extraction Tools For Bug Prediction by Machine Learning  
-This tool used Defects4J 5 projects Chart, Closure, Lang, Math and Time project to extract, diagnose 345 bugs properties and made  
-a bug dataset. By analyzing various static, dynamic, bug and test suite characterisitcs using this tool, a combination of features  
-are extracted with data. Later, this dataset is used to train models using Weka tool to explore best features which can help developers  to find the bug location. 
+This tool used Defects4J 5 projects Chart, Closure, Lang, Math and Time project to extract, diagnose 345 bugs properties and made a bug  dataset. By analyzing various static, dynamic, bug and test suite characterisitcs using this tool, a combination of features are   extracted with data. Later, this dataset is used to train models using Weka tool to explore best features which can help developers  to  find the bug location. 
 
 Defects4J: https://github.com/rjust/defects4j  
 
