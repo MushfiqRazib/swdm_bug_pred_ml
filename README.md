@@ -7,24 +7,22 @@ are extracted with data. Later, this dataset is used to train models using Weka 
 
 Defects4J: https://github.com/rjust/defects4j  
 
-## Final 12 attributes and label are:  
-Category       Number               Name of METRICS  
-Dynamic          3               Coupling Between Objects (CBO)   
-                                 Number of Test Cases execute/covers fault node (NTCExec)  
-								 Number of Test Case Passes which covers/execute fault node (NTCP)  
-								 
-Bug              2               Bug Priority(PR)  
-                                 Add Method Call (AMCALL)  
-									
-Test             7               Total Passed Test for a buggy version(TPT)  
-                                 Matrix Density (MATD)  
-								 Matrix Sparsity (MATSP)  
-								 Active Matrix Density(AMATD)  
-								 Matrix Diversity (MATDV)  
-								 Matrix Uniqueness (MATU)  
-
-								 Matrix DDU (MATDDU)}
-Label: {RankingClass}
+## Final 12 attributes and label are: 
+| No. | Category  | Name of METRICS                                                      |
+| ----| --------- | -------------------------------------------------------------------- |
+| 1   | Dynamic   |  Coupling Between Objects (CBO)                                      |
+| 2   | Dynamic   |  Number of Test Cases execute/covers fault node (NTCExec)    	 |
+| 3   | Dynamic   |  Number of Test Case Passes which covers/execute fault node (NTCP)   |
+| 4   | Bug       |  Bug Priority(PR)    					  	 |
+| 5   | Bug       |  Add Method Call (AMCALL)     					 |
+| 6   | Test      |  Total Passed Test for a buggy version(TPT)    			 |
+| 7   | Test      |  Matrix Density (MATD)    						 |
+| 8   | Test      |  Matrix Sparsity (MATSP)  						 |
+| 9   | Test      |  Active Matrix Density(AMATD)     					 |
+| 10  | Test      |  Matrix Diversity (MATDV) )    					 |
+| 11  | Test      |  Matrix Uniqueness (MATU)   					 |
+| 12  | Test      |  Matrix DDU (MATDDU)  						 |
+| 13  | Label     |  RankingClass   							 |
 
 ## INITIAL SETUP
 Below files/folders needs to be in the path location:  
