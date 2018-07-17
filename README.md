@@ -64,7 +64,7 @@ path-command: -p <path-to-fault-localization-projects, path-to-dynamic-call-grpa
        So, STEP 1 is mandatory.   
  OUTPUT: suspiciousness_ranking/all the csv files containing suspicious ranking.  
  
-## STEP 2: CLASS TRICS SCRIPT - GENERATE CLASS LABEL
+## STEP 2: CLASS SCRIPT - GENERATE CLASS LABEL
   run the script using command: python main.py -i [metrics-command] -p [path-command]   
   Ex: python main.py -i c -p '/home/mra/Desktop/test/'  
   IMPORTANT: spectra_faulty_methods_diffu.csv file must be in the [path-command/spectra_faulty_methods_diffu.csv]   
