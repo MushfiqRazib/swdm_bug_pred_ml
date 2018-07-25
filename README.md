@@ -1,16 +1,34 @@
 # swdm_bug_pred_ml  
 Exploring the Relationship between Design Metrics and Software Diagnosability using Machine Learning (IN2106, IN0012, IN4238)  
 ## Software Design Metrics Extraction Tools For Bug Prediction by Machine Learning  
-This tool used Defects4J 5 projects Chart, Closure, Lang, Math and Time project to diagnose 345 bugs properties.  
+This tool used Defects4J 5 projects Chart, Closure, Lang, Math and Time project to extract, diagnose 345 bugs properties and made a bug  dataset. By analyzing various static, dynamic, bug and test suite characterisitcs using this tool, a combination of features are   extracted with data. Later, this dataset is used to train models using Weka tool to explore best features which can help developers  to  find the bug location. 
+
 Defects4J: https://github.com/rjust/defects4j  
+
+## Final 12 attributes and label are: 
+| No. | Category  | Name of METRICS                                                      |
+| ----| --------- | -------------------------------------------------------------------- |
+| 1   | Dynamic   |  Coupling Between Objects (CBO)                                      |
+| 2   | Dynamic   |  Number of Test Cases execute/covers fault node (NTCExec)    	 |
+| 3   | Dynamic   |  Number of Test Case Passes which covers/execute fault node (NTCP)   |
+| 4   | Bug       |  Bug Priority(PR)    					  	 |
+| 5   | Bug       |  Add Method Call (AMCALL)     					 |
+| 6   | Test      |  Total Passed Test for a buggy version(TPT)    			 |
+| 7   | Test      |  Matrix Density (MATD)    						 |
+| 8   | Test      |  Matrix Sparsity (MATSP)  						 |
+| 9   | Test      |  Active Matrix Density(AMATD)     					 |
+| 10  | Test      |  Matrix Diversity (MATDV) )    					 |
+| 11  | Test      |  Matrix Uniqueness (MATU)   					 |
+| 12  | Test      |  Matrix DDU (MATDDU)  						 |
+| 13  | Label     |  RankingClass   							 |
 
 ## INITIAL SETUP
 Below files/folders needs to be in the path location:  
 
 1. All the Defects4j projects spectra and matrix folder.   
 2. 'method_data_fixed' folder - contains fixed spectra, matrix file of below buggy versions.   
-    Have to copy these file in the corresponding Defects4j projects.  
-    These versions are giving error of having 'tab space' and numpy shape mismatch in the matrix file.  
+    Have to download these versions files in the corresponding Defects4j projects (Time, Closure).    
+    These versions are giving error of having 'tab space' and numpy shape mismatch in the matrix file which was fixed.    
     Fixed the below versions error with:   
     Time: 2   
     Closure: 2, 17, 31, 43, 54, 64, 80, 90, 109, 120   
@@ -19,7 +37,7 @@ Below files/folders needs to be in the path location:
 5. 'dynamic_call_graph' folder - contains all the call graph of the 5 projects.  
 
 ## FOLDER DESCRIPTION
-1. dataset_final - 3 csf files with 63/46/14 features and class data.  
+1. dataset_final - 3 csv files with 63/46/14 features and class data.  
 2. arff - 3 .arff files prepared from final_dataset files to load into weka tool for ML purpose.  
 3. Chart, Closure, Lang, Math and Time - 5 defects4j projects with matrix, spectra files  
 4. staticmetrics - codepro tools static metrics output of 5 projects.  
@@ -46,7 +64,7 @@ path-command: -p <path-to-fault-localization-projects, path-to-dynamic-call-grpa
        So, STEP 1 is mandatory.   
  OUTPUT: suspiciousness_ranking/all the csv files containing suspicious ranking.  
  
-## STEP 2: CLASS TRICS SCRIPT - GENERATE CLASS LABEL
+## STEP 2: CLASS SCRIPT - GENERATE CLASS LABEL
   run the script using command: python main.py -i [metrics-command] -p [path-command]   
   Ex: python main.py -i c -p '/home/mra/Desktop/test/'  
   IMPORTANT: spectra_faulty_methods_diffu.csv file must be in the [path-command/spectra_faulty_methods_diffu.csv]   
